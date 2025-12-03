@@ -1,17 +1,17 @@
 import "./App.css";
 import MyTitle from "./Title";
+import PokemonCard from "./components/PokemonCard";
 
 
 function App() {
 
   return (
 
-    <section>
-
-      <MyTitle />
-
-
-    </section>
+    <div>
+      <section>
+        <PokemonCard />
+      </section>
+    </div>
 
   );
 
